@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/clock" /> <!-- Replace with your icon -->
+
+    <TextView
+        android:id="@+id/iconTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dailt report"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center" />
+
+
+    <ImageView
+        android:id="@+id/iconImageView2"
+        android:layout_width="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:src="@drawable/exit" />
+
+    <TextView
+        android:id="@+id/iconTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center" />
+
+
+
+</LinearLayout>
